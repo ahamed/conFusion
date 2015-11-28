@@ -1,0 +1,33 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'search', 'prompt' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.40
+4 verbose node symlink /usr/bin/node
+5 info get /home/sajeeb/.npm/registry.npmjs.org/-/all/.cache.json
+6 verbose request where is /-/all/since?stale=update_after&startkey=1448688003026
+7 verbose request registry https://registry.npmjs.org/
+8 verbose request id 7b79f6426afd26c6
+9 verbose url raw /-/all/since?stale=update_after&startkey=1448688003026
+10 verbose url resolving [ 'https://registry.npmjs.org/',
+10 verbose url resolving   './-/all/since?stale=update_after&startkey=1448688003026' ]
+11 verbose url resolved https://registry.npmjs.org/-/all/since?stale=update_after&startkey=1448688003026
+12 verbose request where is https://registry.npmjs.org/-/all/since?stale=update_after&startkey=1448688003026
+13 info trying registry request attempt 1 at 12:36:50
+14 http GET https://registry.npmjs.org/-/all/since?stale=update_after&startkey=1448688003026
+15 http 200 https://registry.npmjs.org/-/all/since?stale=update_after&startkey=1448688003026
+16 error Error: EACCES, open '/home/sajeeb/.npm/registry.npmjs.org/-/all/.cache.json'
+16 error  { [Error: EACCES, open '/home/sajeeb/.npm/registry.npmjs.org/-/all/.cache.json']
+16 error   errno: 3,
+16 error   code: 'EACCES',
+16 error   path: '/home/sajeeb/.npm/registry.npmjs.org/-/all/.cache.json' }
+17 error Please try running this command again as root/Administrator.
+18 error System Linux 3.13.0-68-generic
+19 error command "/usr/bin/node" "/usr/bin/npm" "search" "prompt"
+20 error cwd /var/www/html/conFusion/Nodejs
+21 error node -v v0.10.40
+22 error npm -v 1.4.28
+23 error path /home/sajeeb/.npm/registry.npmjs.org/-/all/.cache.json
+24 error code EACCES
+25 error errno 3
+26 error stack Error: EACCES, open '/home/sajeeb/.npm/registry.npmjs.org/-/all/.cache.json'
+27 verbose exit [ 3, true ]
